@@ -39,7 +39,7 @@ body > div {
 #logo {
 	height: 5vw;
 	width: 70%;
-	background-image: url("logo.svg");
+	background-image: url("assets/logo.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -54,6 +54,7 @@ body > div {
 
 #text-wrapper {
   margin: 40px;
+  margin-bottom: 20px;
   font-size: 20px;
 }
 
@@ -73,4 +74,19 @@ body > div {
 
 ol {
   margin: 0;
+}
+
+#qr {
+  width: 15vw;
+  height: 15vw;
+  margin: auto;
+  background-image: url('assets/qr.png');
+  background-size: cover;
+}
+
+#info > p {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  margin-top: -5px;
 }
