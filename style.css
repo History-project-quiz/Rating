@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Tinkoff Sans";
+	src: url("fonts/TinkoffSans.woff2") format("woff2");
+	src: url("fonts/TinkoffSans.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Tinkoff Sans Bold";
+	src: url("fonts/TinkoffSans_Bold.woff2") format("woff2");
+	src: url("fonts/TinkoffSans_Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Tinkoff Sans Medium";
+	src: url("fonts/TinkoffSans_Medium.woff2") format("woff2");
+	src: url("fonts/TinkoffSans_Medium.ttf") format("truetype");
+}
+
+body {
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+	font-family: "Tinkoff Sans", Arial, Helvetica, sans-serif;
+}
+
+body > div {
+	min-height: 100%;
+}
+
+#info {
+	background-color: #fed629;
+	width: 27%;
+}
+
+#rating {
+	width: 70%;
+}
+
+#logo {
+	height: 5vw;
+	width: 70%;
+	background-image: url("logo.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#logo-wrapper {
+	height: 7vw;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#text-wrapper {
+  margin: 40px;
+  font-size: 20px;
+}
+
+#subheader {
+  font-family: "Tinkoff Sans Bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+#text-wrapper > p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+ol {
+  margin: 0;
+}
