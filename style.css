@@ -109,3 +109,7 @@ ol {
 .rating-game > ol {
   font-size: 20px;
 }
+
+#game1 {
+  margin-left: 10px;
+}
