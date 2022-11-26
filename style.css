@@ -29,13 +29,12 @@ body > div {
 
 #info {
     background-color: #138abd;
-    width: 35%;
+    width: 55%;
 }
 
 #rating {
-    width: 65%;
+    width: 45%;
     display: flex;
-    text-align: center;
 }
 
 #logo {
@@ -59,6 +58,7 @@ body > div {
 #text-wrapper {
     margin: 40px;
     margin-bottom: 20px;
+    margin-left: 150px;
     font-size: 20px;
     color: white;
 }
@@ -106,6 +106,18 @@ ol {
     margin-top: -5px;
 }
 
+.rating-game {
+    height: 100%;
+    width: 100%;
+}
+
+.rating-game > ol {
+    font-size: 20px;
+}
+
 #game1 {
+    margin-top:30px;
     margin-left: 10px;
+    font-size: 1.5em;
+    text-align: center;
 }
