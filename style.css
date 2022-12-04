@@ -38,16 +38,17 @@ body > div {
 }
 
 #logo {
-    height: 5vw;
-    width: 70%;
-    background-image: url("assets/logo.svg");
+    height: 7.5vw;
+    margin: 0 420px;
+    width: 80%;
+    background-image: url("assets/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
     color: white;
 }
 
 #logo-wrapper {
-    height: 7vw;
+    height: 8vw;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -92,8 +93,8 @@ ol {
 }
 
 #qr {
-    width: 15vw;
-    height: 15vw;
+    width: 298px;
+    height: 365px;
     margin: auto;
     background-image: url('assets/qr.png');
     background-size: cover;
@@ -116,7 +117,7 @@ ol {
 }
 
 #game1 {
-    margin-top:30px;
+    margin-top: 30px;
     margin-left: 10px;
     font-size: 1.5em;
     text-align: center;
