@@ -93,8 +93,8 @@ ol {
 }
 
 #qr {
-    width: 298px;
-    height: 365px;
+    width: 502px;
+    height: 622px;
     margin: auto;
     background-image: url('assets/qr.png');
     background-size: cover;
