@@ -92,12 +92,10 @@ ol {
     margin: 0;
 }
 
-#qr {
-    width: 502px;
-    height: 622px;
-    margin: auto;
-    background-image: url('assets/qr.png');
-    background-size: cover;
+#password {
+    text-align: center;
+    font-size: 40px;
+    color: white;
 }
 
 #info > p {
